@@ -1,0 +1,5 @@
+lib/benchmark/
+lib/obj/
+lib/libbenchmark.a
+*.o
+basic
