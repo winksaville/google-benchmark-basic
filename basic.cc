@@ -1,7 +1,7 @@
 /**
  * From https://github.com/google/benchmark#basic-usage
  */
-#include <benchmark/benchmark.h>
+#include "benchmark/benchmark.h"
 
 static void BM_StringCreation(benchmark::State& state) {
   for (auto _ : state)
