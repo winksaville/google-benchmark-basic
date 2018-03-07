@@ -49,7 +49,6 @@ $(TARGET): $(SOURCE_FILES) $(OBJECT_FILES)
 
 $(SOURCE_FILES):
 	git clone https://github.com/google/benchmark.git benchmark
-	git clone https://github.com/google/googletest.git benchmark/googletest
 
 $(OBJ_DIR):
 	mkdir -p $(OBJ_DIR)
