@@ -1,6 +1,6 @@
 TARGET = libbenchmark.a
 
-CXXFLAGS = -std=c++11 -O3 -Wall -Wextra -Wshadow -Werror -pedantic -pedantic-errors \
+CXXFLAGS = -std=c++11 -O3 -Wall -Wextra -Wshadow -pedantic -pedantic-errors \
 	  -Wfloat-equal -fstrict-aliasing -Wstrict-aliasing -Wno-invalid-offsetof \
 	  -DNDEBUG -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK
 
